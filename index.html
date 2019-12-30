@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper" class="wrapper">
+        <h1 class="heading">This is a simple login page!</h1>
+        <form id="form" onsubmit="return Validate()" name="vform">
+            <div>
+                <input id="input" type="text" name="username" class="textInput" placeholder="Username">
+                <div id="name_error" class="val_error"></div>
+            </div>
+            <div>
+                <input id="password" type="password" name="password" class="textInput" placeholder="Password">
+                <div id="password_error" class="val_error"></div>
+            </div> 
+            <div>
+                <input type="submit" value="Login" class="btn" name="register">
+                <div id="name_error" class="val_error"></div>
+            </div>       
+        </form>
+    </div>
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+
+</html>
